@@ -1,0 +1,76 @@
+body{
+    font-family: sans-serif;
+}
+
+.home{
+    width: 1000px;
+    height: 600px;
+    margin: 0px;
+    margin-left: 300px;
+    background-color: #eee;  
+    display: flex;
+        
+}
+.one{
+    
+    margin: 70px;
+    width: 200px;
+    height: 400px;
+    background-color: #06c9b5;
+    position: relative;
+}
+.one::after{
+    font-size: 45px;
+    content: "YOUR";
+    width: calc(100% - 40px);
+    padding: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: white;
+    text-align: center;
+    
+    
+}
+.two{
+     margin: 70px;
+    width: 200px;
+    height: 400px;
+    background-color:#19b696;
+    position: relative
+    
+    
+} 
+.two::after{
+    font-size: 45px;
+    content: "WAY";
+    width: calc(100% - 40px);
+    padding: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: white;
+    text-align: center;
+    
+    
+}
+
+.three{
+     margin: 70px;
+    width: 200px;
+    height: 400px;
+    background-color: #00bcd4;
+    position: relative;
+}
+.three::after{
+    font-size: 25px;
+    content: " TO SUCCESS";
+    width: calc(100% - 40px);
+    padding: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: white;
+    text-align: center;
+    
+}
